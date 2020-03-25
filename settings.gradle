@@ -1,0 +1,2 @@
+rootProject.name='Kotlin-SOLID-Principles'
+include ':app'
