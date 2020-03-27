@@ -2,4 +2,5 @@
 
 
 S.O.L.I.D Principles KOTLIN (Android)
+
 The following 
