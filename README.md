@@ -9,7 +9,7 @@ The following 5 concepts make up our SOLID principles:
 
 - Open/Closed
 
-Liskov Substitution
+- Liskov Substitution
 
 Interface Segregation
 
