@@ -11,7 +11,7 @@ The following 5 concepts make up our SOLID principles:
 
 - Liskov Substitution
 
-Interface Segregation
+- Interface Segregation
 
 Dependency Inversion
 
