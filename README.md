@@ -3,4 +3,4 @@
 
 S.O.L.I.D Principles KOTLIN (Android)
 
-The following 
+The following 5 concepts 
