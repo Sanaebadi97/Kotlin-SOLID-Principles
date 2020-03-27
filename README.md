@@ -13,7 +13,7 @@ The following 5 concepts make up our SOLID principles:
 
 - Interface Segregation
 
-Dependency Inversion
+- Dependency Inversion
 
 
 
