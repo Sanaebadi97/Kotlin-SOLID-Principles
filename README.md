@@ -7,7 +7,7 @@ The following 5 concepts make up our SOLID principles:
 
 - Single Responsibility
 
-Open/Closed
+- Open/Closed
 
 Liskov Substitution
 
