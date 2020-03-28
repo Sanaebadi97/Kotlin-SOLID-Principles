@@ -43,6 +43,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/ISP/before/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/ISP/before/OnClickListener.kt">
           <value>
             <set />
