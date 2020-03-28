@@ -1,4 +1,4 @@
-package info.sanaebadi.kotlinSolidPrinciples.academy.SRP.OCP
+package info.sanaebadi.kotlinSolidPrinciples.academy.OCP
 
 import java.util.*
 

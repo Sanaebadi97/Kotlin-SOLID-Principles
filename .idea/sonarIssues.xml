@@ -23,6 +23,41 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/OCP/AreaManager.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/OCP/Circle.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/OCP/Rectangle.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/SRP/Order.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/OCP/AreaManager.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/OCP/Circle.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/OCP/Rectangle.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/SRP/AfterAdapter.kt">
           <value>
             <set />
