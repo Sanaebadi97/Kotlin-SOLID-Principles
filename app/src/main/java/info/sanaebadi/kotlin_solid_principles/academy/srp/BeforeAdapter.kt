@@ -10,10 +10,6 @@ import java.text.NumberFormat
 import java.util.*
 
 
-data class LineItem(val description: String? = null, val quantity: Int = 0, val price: Long = 0)
-
-data class Order(val orderNumber: Int = 0, val lineItems: List<LineItem>)
-
 
 class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
     RecyclerView.Adapter<OrderRecyclerAdapter.ViewHolder>() {
