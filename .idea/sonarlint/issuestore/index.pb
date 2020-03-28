@@ -1,6 +1,4 @@
 
-Š
-Zapp/src/androidTest/java/info/sanaebadi/kotlin_solid_principles/ExampleInstrumentedTest.kt,a/c/ac3ede86a3c0c5ebd3b3bef3d49a839c5548566a
 d
 4app/src/main/res/drawable/ic_launcher_background.xml,4/9/49845c622cb06d895975c7b1e3f943e320bce688
 h
@@ -17,8 +15,6 @@ R
 "app/src/main/res/values/styles.xml,f/7/f79cc2688e29fcbc286fda14ae07b27c9e83690f
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
-{
-Kapp/src/test/java/info/sanaebadi/kotlin_solid_principles/ExampleUnitTest.kt,2/6/269f9c0ff205c81bc52368b6e210841edc6c1b92
 >
 app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
 @
@@ -44,5 +40,3 @@ A
 gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
-x
-Happ/src/main/java/info/sanaebadi/kotlin_solid_principles/MainActivity.kt,1/e/1e8e40a6e550c51465f732ca16481a13a296fe34
