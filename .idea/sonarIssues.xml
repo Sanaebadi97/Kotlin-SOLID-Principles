@@ -48,6 +48,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/DIP/before/Emailer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/DIP/before/Emailer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/DIP/before/IDataLayer.kt">
           <value>
             <set />
