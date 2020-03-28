@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import info.sanaebadi.kotlin_solid_principles.R
+import java.text.NumberFormat
+import java.util.*
 
 
 data class LineItem(val description: String? = null, val quantity: Int = 0, val price: Long = 0)
@@ -28,8 +30,19 @@ class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
         val order = items[position]
-        holder.orderNumber.text = (order.or().toString())
-        val total: Long = 0
+        holder.orderNumber!!.text = (order.orderNumber.toString())
+        var total: Long = 0
+        for ((_, _, price) in order.lineItems) {
+            total += price
+        }
+
+        val formatter: NumberFormat = NumberFormat.getCurrencyInstance(Locale.US)
+        val totalValue: String =
+            formatter.format(2000 / 100.0) // Must divide by a double otherwise we'll lose precision
+        holder.orderTotal!!.text = totalValue
+        holder.itemView.tag = order
+
+
     }
 
 
