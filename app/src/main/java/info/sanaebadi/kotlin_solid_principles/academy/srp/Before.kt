@@ -8,18 +8,9 @@ import androidx.recyclerview.widget.RecyclerView
 import info.sanaebadi.kotlin_solid_principles.R
 
 
-class LineItem() {
-    private val description: String? = null
-    private val quantity = 0
-    private val price: Long = 0
-    // ... getters/setters
-}
+data class LineItem(val description: String? = null, val quantity: Int = 0, val price: Long = 0)
 
-class Order {
-    private val orderNumber = 0
-    private val lineItems: List<LineItem> =
-        ArrayList() // ... getters/setters
-}
+data class Order(val orderNumber: Int = 0, val lineItems: List<LineItem>)
 
 
 class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
@@ -35,7 +26,10 @@ class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
     override fun getItemCount() = items.size
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        // TODO: bind the view here
+
+        val order = items[position]
+        holder.orderNumber.text = (order.or().toString())
+        val total: Long = 0
     }
 
 
