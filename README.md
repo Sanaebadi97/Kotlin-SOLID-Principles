@@ -52,3 +52,4 @@ lists, text views, animations and anything Android UI-related lives. Next, there
 
 business rules are implemented to support the core application functionality. This is sometimes also known as a “Domain Layer” 
 
+or “Service Layer.” Finally, there is the Data Layer where all the data for the application resides. The data can be in a 
