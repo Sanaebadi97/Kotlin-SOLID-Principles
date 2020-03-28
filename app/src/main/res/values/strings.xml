@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Kotlin-SOLID-Principles</string>
+    <string name="order_number">ORDER NUMBER</string>
+    <string name="order_total">ORDER TOTAL</string>
 </resources>
