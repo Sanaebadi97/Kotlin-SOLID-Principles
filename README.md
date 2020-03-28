@@ -16,6 +16,10 @@ The following 5 concepts make up our SOLID principles:
 - Dependency Inversion
 
 
+1-A class should have only one reason to change.
+
+
+
 
 
 
