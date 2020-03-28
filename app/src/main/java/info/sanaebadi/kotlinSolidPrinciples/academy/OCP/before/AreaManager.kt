@@ -1,6 +1,6 @@
-package info.sanaebadi.kotlinSolidPrinciples.academy.OCP
+package info.sanaebadi.kotlinSolidPrinciples.academy.OCP.before
 
-import java.util.*
+
 
 class AreaManager {
     fun calculateArea(vararg shapes: ArrayList<Any?>?): Double {
@@ -11,7 +11,7 @@ class AreaManager {
                 area += length * height
             } else if (shape is Circle) {
                 val (radius) = shape as Circle
-                area += radius * cirlce.getRadius() * Math.PI
+                area += radius * shape.radius * Math.PI
             } else {
                 throw RuntimeException("Shape not supported")
             }

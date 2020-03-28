@@ -1,4 +1,4 @@
-package info.sanaebadi.kotlinSolidPrinciples.academy.SRP
+package info.sanaebadi.kotlinSolidPrinciples.academy.SRP.before
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,10 +6,22 @@ import android.view.ViewGroup
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import info.sanaebadi.kotlinSolidPrinciples.R
+import info.sanaebadi.kotlinSolidPrinciples.academy.SRP.after.Order
+import java.text.NumberFormat
+import java.util.*
 
 
-class AfterAdapter(var items: List<Order>, var itemLayout: Int) :
-    RecyclerView.Adapter<AfterAdapter.ViewHolder>() {
+/*
+ WE WILL REMOVE THIS FOR REFACTOR
+
+ */
+//data class LineItem(val description: String? = null, val quantity: Int = 0, val price: Long = 0)
+
+//data class Order(val orderNumber: Int = 0, val totalNumber: Int = 0, val lineItems: List<LineItem>)
+
+
+class Adapter(var items: List<Order>, var itemLayout: Int) :
+    RecyclerView.Adapter<Adapter.ViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -24,8 +36,23 @@ class AfterAdapter(var items: List<Order>, var itemLayout: Int) :
 
         val order = items[position]
         holder.orderNumber!!.text = (order.orderNumber.toString())
-        holder.orderTotal!!.text = order.totalNumber.toString() // Move the calculation and formatting elsewhere
+        holder.orderTotal!!.text =
+            order.totalNumber.toString() // Move the calculation and formatting elsewhere
         holder.itemView.tag = order
+
+
+/*
+       REMOVE THIS LOOP FOR REFACTOR TO SRP
+
+*/
+        var total: Long = 0
+        for ((_, _, price) in order.lineItems) {
+            total += price
+        }
+
+        val formatter: NumberFormat = NumberFormat.getCurrencyInstance(Locale.US)
+        val totalValue: String =
+            formatter.format(2000 / 100.0) // Must divide by a double otherwise we'll lose precision
 
 
     }
@@ -43,5 +70,4 @@ class AfterAdapter(var items: List<Order>, var itemLayout: Int) :
             orderTotal = itemView.findViewById(R.id.order_total)
         }
     }
-
 }
