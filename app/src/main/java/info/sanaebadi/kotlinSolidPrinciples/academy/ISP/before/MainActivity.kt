@@ -1,7 +1,8 @@
-package info.sanaebadi.kotlinSolidPrinciples
+package info.sanaebadi.kotlinSolidPrinciples.academy.ISP.before
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import info.sanaebadi.kotlinSolidPrinciples.R
 
 class MainActivity : AppCompatActivity() {
 
