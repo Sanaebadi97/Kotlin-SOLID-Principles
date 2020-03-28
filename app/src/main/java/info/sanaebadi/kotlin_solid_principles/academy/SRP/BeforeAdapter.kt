@@ -1,4 +1,4 @@
-package info.sanaebadi.kotlin_solid_principles.academy.srp
+package info.sanaebadi.kotlin_solid_principles.academy.SRP
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import info.sanaebadi.kotlin_solid_principles.R
 import java.text.NumberFormat
 import java.util.*
-
 
 
 class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
@@ -27,7 +26,14 @@ class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
 
         val order = items[position]
         holder.orderNumber!!.text = (order.orderNumber.toString())
-        var total: Long = 0
+        holder.orderTotal!!.text = order.totalNumber.toString() // Move the calculation and formatting elsewhere
+        holder.itemView.tag = order
+
+
+/*
+       REMOVE THIS LOOP FOR REFACTOR TO SRP
+
+    var total: Long = 0
         for ((_, _, price) in order.lineItems) {
             total += price
         }
@@ -35,9 +41,7 @@ class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
         val formatter: NumberFormat = NumberFormat.getCurrencyInstance(Locale.US)
         val totalValue: String =
             formatter.format(2000 / 100.0) // Must divide by a double otherwise we'll lose precision
-        holder.orderTotal!!.text = totalValue
-        holder.itemView.tag = order
-
+            */
 
     }
 
