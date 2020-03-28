@@ -35,3 +35,9 @@ than one general purpose interface.
 
 5.b. Abstractions should not depend on details. Details should depend on abstractions.
 
+Put succinctly, the Dependency Inversion Principle basically says this:
+
+Depend on Abstractions. Do not depend on concretions.
+
+
+
