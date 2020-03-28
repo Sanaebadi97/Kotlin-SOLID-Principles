@@ -44,3 +44,5 @@ Depend on Abstractions. Do not depend on concretions.
 In a traditional layered pattern software architecture design, higher level modules depend on lower level modules to do their 
 job. For example, here’s a very common layered architecture that you may have seen (or may even have in your application now):
 
+
+Android UI → Business Rules → Data Layer
