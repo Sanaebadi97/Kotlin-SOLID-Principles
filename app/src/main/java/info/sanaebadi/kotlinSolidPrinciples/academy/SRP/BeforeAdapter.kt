@@ -1,17 +1,17 @@
-package info.sanaebadi.kotlin_solid_principles.academy.SRP
+package info.sanaebadi.kotlinSolidPrinciples.academy.SRP
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
-import info.sanaebadi.kotlin_solid_principles.R
+import info.sanaebadi.kotlinSolidPrinciples.R
 import java.text.NumberFormat
 import java.util.*
 
 
-class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
-    RecyclerView.Adapter<OrderRecyclerAdapter.ViewHolder>() {
+class BeforeAdapter(var items: List<Order>, var itemLayout: Int) :
+    RecyclerView.Adapter<BeforeAdapter.ViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -26,14 +26,16 @@ class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
 
         val order = items[position]
         holder.orderNumber!!.text = (order.orderNumber.toString())
-        holder.orderTotal!!.text = order.totalNumber.toString() // Move the calculation and formatting elsewhere
+        holder.orderTotal!!.text =
+            order.totalNumber.toString() // Move the calculation and formatting elsewhere
         holder.itemView.tag = order
 
 
 /*
        REMOVE THIS LOOP FOR REFACTOR TO SRP
 
-    var total: Long = 0
+*/
+        var total: Long = 0
         for ((_, _, price) in order.lineItems) {
             total += price
         }
@@ -41,7 +43,7 @@ class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
         val formatter: NumberFormat = NumberFormat.getCurrencyInstance(Locale.US)
         val totalValue: String =
             formatter.format(2000 / 100.0) // Must divide by a double otherwise we'll lose precision
-            */
+
 
     }
 
@@ -58,5 +60,4 @@ class OrderRecyclerAdapter(var items: List<Order>, var itemLayout: Int) :
             orderTotal = itemView.findViewById(R.id.order_total)
         }
     }
-
 }

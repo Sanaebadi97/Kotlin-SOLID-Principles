@@ -1,4 +1,4 @@
-package info.sanaebadi.kotlin_solid_principles
+package info.sanaebadi.kotlinSolidPrinciples
 
 import org.junit.Test
 
