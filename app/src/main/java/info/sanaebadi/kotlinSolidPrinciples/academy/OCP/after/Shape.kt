@@ -11,6 +11,6 @@ Hmmm, but that makes the AreaManager still have to know about
 
  */
 
-interface Shape{
-    fun getArea()
+interface Shape {
+    fun getArea(): Double
 }

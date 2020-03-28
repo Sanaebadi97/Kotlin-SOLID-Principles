@@ -3,7 +3,7 @@ package info.sanaebadi.kotlinSolidPrinciples.academy.OCP.after
 data class Rectangle(val length: Double, val height: Double) :Shape {
 
 
-    override fun getArea() {
-        TODO("Not yet implemented")
+    override fun getArea(): Double {
+       return (length * height)
     }
 }
