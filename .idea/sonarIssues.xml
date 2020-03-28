@@ -43,6 +43,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/DIP/after/Emailer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/DIP/after/Emailer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/DIP/after/TestActivity.java">
           <value>
             <set />
