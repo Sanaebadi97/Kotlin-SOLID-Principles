@@ -41,3 +41,4 @@ Depend on Abstractions. Do not depend on concretions.
 
 
 
+In a traditional layered pattern software architecture design, higher level modules depend on lower level modules to do their 
