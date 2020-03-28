@@ -16,7 +16,7 @@ The following 5 concepts make up our SOLID principles:
 - Dependency Inversion
 
 
-1-
+
 
 2.software entities (classes, modules, functions, etc) should be open for extension, but closed for modification
 
