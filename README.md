@@ -24,6 +24,10 @@ The following 5 concepts make up our SOLID principles:
 
 
 
+4.Make fine grained interfaces that are client-specific.
+
+
+
 
 
 
