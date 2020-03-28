@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         create.setOnClickListener{
             // assume this is a todo based app.
-            myDatabase.createTask(...)
+        //    myDatabase.createTask(...)
 
             fun onLongClick(v: View?){
 
