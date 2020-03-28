@@ -1,4 +1,4 @@
-package info.sanaebadi.kotlinSolidPrinciples.academy.DIP.before
+package info.sanaebadi.kotlinSolidPrinciples.academy.DIP.before.ui
 
 import android.os.Bundle
 import android.view.View
