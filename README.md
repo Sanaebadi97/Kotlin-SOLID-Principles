@@ -31,7 +31,7 @@ than one general purpose interface.
 
 
 
-5-
+5-a. High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
 
 
