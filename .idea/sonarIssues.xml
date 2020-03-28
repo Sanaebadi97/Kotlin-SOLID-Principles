@@ -43,6 +43,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/ISP/after/OnClickListener.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/ISP/after/OnTouch.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/ISP/after/onLongClick.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/kotlinSolidPrinciples/academy/ISP/before/MainActivity.kt">
           <value>
             <set />
