@@ -5,7 +5,7 @@
 
 The following 5 concepts make up our **SOLID principles:**
 
-- Single Responsibility  
+- Single Responsibility :heart_eyes:
 
 `(A class should have only one reason to change)`
 
