@@ -9,7 +9,9 @@ The following 5 concepts make up our **SOLID principles:**
 
 `(A class should have only one reason to change)`
 
-- Open/Closed `(software entities (classes, modules, functions, etc) should be open for extension, but closed for modification)`
+- Open/Closed
+
+ `(software entities (classes, modules, functions, etc) should be open for extension, but closed for modification)`
 
 - Liskov Substitution `(Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 )`
