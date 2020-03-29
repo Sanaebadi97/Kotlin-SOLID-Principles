@@ -27,6 +27,7 @@ than one general purpose interface.
 
 - **Dependency Inversion** :hushed:
 
+a.High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
 
 
@@ -38,7 +39,7 @@ than one general purpose interface.
 
 
 
-5-a. High-level modules should not depend on low-level modules. Both should depend on abstractions.
+5-a. 
 
 5.b. Abstractions should not depend on details. Details should depend on abstractions.
 
