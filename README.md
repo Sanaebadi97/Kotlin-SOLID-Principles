@@ -60,7 +60,7 @@ database, an API, flat files, etc - it’s just a layer whose sole responsibilit
 
 UI Layer: Allows user to enter data.
 
-Business Layer: Verifies that entered data matches a set of business rules.
+`Business Layer:` Verifies that entered data matches a set of business rules.
 
 
 Data Layer: Allows for persistent storage of the expense data.
