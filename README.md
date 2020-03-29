@@ -36,14 +36,6 @@ than one general purpose interface.
 
 
 
-
-
-
-
-
-
-
-
 Put succinctly, the Dependency Inversion Principle basically says this:
 
 Depend on Abstractions. Do not depend on concretions.
@@ -54,7 +46,7 @@ In a traditional layered pattern software architecture design, higher level modu
 job. For example, here’s a very common layered architecture that you may have seen (or may even have in your application now):
 
 
-Android UI → Business Rules → Data Layer
+**Android UI → Business Rules → Data Layer**
 
 In the diagram above there are three layers. The UI Layer (in this case, the Android UI) - this is where all of our UI widgets, 
 lists, text views, animations and anything Android UI-related lives. Next, there is the business layer. In this layer, common 
