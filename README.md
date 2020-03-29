@@ -65,5 +65,5 @@ Business Layer: Verifies that entered data matches a set of business rules.
 
 Data Layer: Allows for persistent storage of the expense data.
 
-**(DIP RESOURCE)[https://academy.realm.io/posts/donn-felker-solid-part-5/]** 
+**[DIP RESOURCE](https://academy.realm.io/posts/donn-felker-solid-part-5/)** 
 
