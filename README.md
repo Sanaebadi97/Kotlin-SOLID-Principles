@@ -5,11 +5,11 @@
 
 The following 5 concepts make up our **SOLID principles:**
 
-- Single Responsibility  :heart_eyes:
+- Single Responsibility  
 
 `(A class should have only one reason to change)`
 
-- **Open/Closed**
+- **Open/Closed** :heart_eyes:
 
  (software entities (classes, modules, functions, etc) should be open for extension, but closed for modification)
 
