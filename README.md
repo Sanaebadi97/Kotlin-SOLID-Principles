@@ -55,7 +55,7 @@ business rules are implemented to support the core application functionality. Th
 
 or `Service Layer` Finally, there is the Data Layer where all the data for the application resides. The data can be in a 
 
-database, an API, flat files, etc - it’s just a layer whose sole responsibility is to store and retrieve data.
+`database`, an API, flat files, etc - it’s just a layer whose sole responsibility is to store and retrieve data.
 
 
 - `UI Layer:` Allows user to enter data.
