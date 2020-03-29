@@ -25,7 +25,7 @@ Objects in a program should be replaceable with instances of their subtypes with
 2.Many client-specific interfaces are better
 than one general purpose interface.
 
-- **Dependency Inversion**  hushed:
+- **Dependency Inversion** :hushed:
 
 
 
