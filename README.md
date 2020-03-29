@@ -7,7 +7,7 @@ The following 5 concepts make up our **SOLID principles:**
 
 - Single Responsibility (A class should have only one reason to change.) :heart_eyes:
 
-- Open/Closed
+- Open/Closed (software entities (classes, modules, functions, etc) should be open for extension, but closed for modification)
 
 - Liskov Substitution
 
@@ -18,7 +18,7 @@ The following 5 concepts make up our **SOLID principles:**
 
 
 
-2.software entities (classes, modules, functions, etc) should be open for extension, but closed for modification
+2.
 
 3.Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 
