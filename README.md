@@ -22,7 +22,7 @@ Objects in a program should be replaceable with instances of their subtypes with
 
 4.a-Make fine grained interfaces that are client-specific.
 
-2.Many client-specific interfaces are better
+4.b-Many client-specific interfaces are better
 than one general purpose interface.
 
 - **Dependency Inversion** :hushed:
