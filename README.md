@@ -65,5 +65,5 @@ Business Layer: Verifies that entered data matches a set of business rules.
 
 Data Layer: Allows for persistent storage of the expense data.
 
-
+DIP RESOURCE 
 
