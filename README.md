@@ -47,9 +47,9 @@ job. For example, here’s a very common layered architecture that you may have 
 
 **Android UI → Business Rules → Data Layer**
 
-In the diagram above there are three layers. The UI Layer (in this case, the Android UI) - this is where all of our UI widgets, 
+In the diagram above there are three layers. The `UI Layer` (in this case, the Android UI) - this is where all of our UI widgets, 
 
-lists, text views, animations and anything Android UI-related lives. Next, there is the business layer. In this layer, common 
+lists, `text views`, animations and anything Android UI-related lives. Next, there is the business layer. In this layer, common 
 
 business rules are implemented to support the core application functionality. This is sometimes also known as a `Domain Layer`
 
