@@ -21,6 +21,8 @@ Objects in a program should be replaceable with instances of their subtypes with
 - **Interface Segregation** :smiley:
 
 1.Make fine grained interfaces that are client-specific.
+2.Many client-specific interfaces are better
+than one general purpose interface.
 
 - Dependency Inversion
 
@@ -34,8 +36,7 @@ Objects in a program should be replaceable with instances of their subtypes with
 
 4.
 
-4-1 -Many client-specific interfaces are better
-than one general purpose interface.
+4-1 -
 
 
 
