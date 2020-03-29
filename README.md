@@ -65,5 +65,5 @@ or `Service Layer` Finally, there is the `Data Layer` where all the data for the
 
 - `Data Layer:` Allows for persistent storage of the expense data.
 
-**[DIP RESOURCE](https://academy.realm.io/posts/donn-felker-solid-part-5/)** :yum:
+
 
