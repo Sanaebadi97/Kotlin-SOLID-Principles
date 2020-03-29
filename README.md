@@ -3,7 +3,7 @@
 
 ## S.O.L.I.D Principles KOTLIN (Android) :blush:
 
-The following 5 concepts make up our SOLID principles:
+The following 5 concepts make up our **SOLID principles:**
 
 - Single Responsibility (A class should have only one reason to change.)
 
