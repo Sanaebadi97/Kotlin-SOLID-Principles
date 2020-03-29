@@ -15,8 +15,8 @@ A class should have only one reason to change
 
 - **Liskov Substitution** 
 
-(Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
-)
+Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
+
 
 - Interface Segregation
 
