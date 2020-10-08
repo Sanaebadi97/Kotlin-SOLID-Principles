@@ -32,6 +32,7 @@ than one general purpose interface.
 5.b-Abstractions should not depend on details. Details should depend on abstractions.
 
 
+
 # NOTE (DIP) :bell:
 
 
